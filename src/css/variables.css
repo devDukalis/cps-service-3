@@ -1,0 +1,21 @@
+/* FONTS */
+:root {
+  --font-bold: "TTLakes-Bold", sans-serif;
+  --font-medium: "TTLakes-Medium", sans-serif;
+  --font-regular: "TTLakes-Regular", sans-serif;
+
+  --font-main-color: #1b1c21;
+  --font-second-color: #7e7e82;
+
+  --font-size-big: 24px;
+  --font-size-medium: 16px;
+  --font-size-small: 14px;
+
+  --line-height-main: 32px;
+  --line-height-second: 24px;
+  --line-height-small: 18px;
+
+  --letter-spacing-main: -0.6px;
+  --letter-spacing-second: -0.2px;
+  --letter-spacing-small: 0.2px;
+}
