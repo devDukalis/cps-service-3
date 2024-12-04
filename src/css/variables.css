@@ -19,3 +19,8 @@
   --letter-spacing-second: -0.2px;
   --letter-spacing-small: 0.2px;
 }
+
+/* COLORS */
+:root {
+  --bg-color-main: #f8f8f8;
+}
