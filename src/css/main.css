@@ -1,0 +1,92 @@
+.brands-section {
+  background-color: var(--bg-color-main);
+}
+
+.brands-section__heading {
+  margin: 0;
+  padding: 16px;
+  color: var(--font-second-color);
+  text-transform: uppercase;
+  font-family: var(--font-regular);
+  font-size: var(--font-bold);
+  font-weight: 500;
+  line-height: var(--line-height-second);
+  letter-spacing: var(--letter-spacing-second);
+  background: linear-gradient(90deg, #f8f8f8, #ffffff);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #d9fff5;
+}
+
+.brands-section__list {
+  padding: 16px;
+  margin-bottom: 58px;
+}
+
+.brands-section__list-item {
+  min-width: 208px;
+  height: 72px;
+  padding: 0 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.brands-section__list-item:last-child {
+  margin-right: 32px;
+}
+
+.brands-section__list-item-link {
+  width: 40px;
+  height: 40px;
+  padding: 16px 0;
+}
+
+.brands-section__list-item-lenovo-logo {
+  width: 108px;
+  height: 32px;
+}
+
+.brands-section__list-item-samsung-logo {
+  width: 116px;
+  height: 38px;
+}
+
+.brands-section__list-item-apple-logo {
+  width: 44px;
+  height: 44px;
+}
+
+.brands-section__list-item-viewsonic-logo {
+  width: 128px;
+  height: 21px;
+}
+
+.brands-section__list-item-bosh-logo {
+  width: 128px;
+  height: 28px;
+}
+
+.brands-section__list-item-hp-logo {
+  width: 52px;
+  height: 52px;
+}
+
+.brands-section__list-item-acer-logo {
+  width: 94px;
+  height: 24px;
+}
+
+.brands-section__list-item-sony-logo {
+  width: 128px;
+  height: 25px;
+}
+
+.brands-section__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 204px;
+  padding-bottom: 26px;
+}
