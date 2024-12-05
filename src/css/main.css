@@ -25,12 +25,12 @@
 }
 
 .brands-section__list-item {
-  min-width: 208px;
-  height: 72px;
-  padding: 0 16px;
   border: 1px solid #eaeaea;
   border-radius: 6px;
   background: #ffffff;
+  min-width: 240px;
+  max-width: 240px;
+  padding: 0 16px;
 }
 
 .brands-section__list-item:last-child {
@@ -38,9 +38,16 @@
 }
 
 .brands-section__list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
-  padding: 16px 0;
+}
+
+.brands-section__list-item-link-img {
+  width: 40px;
+  height: 40px;
 }
 
 .brands-section__list-item-lenovo-logo {
