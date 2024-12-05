@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="src/css/custom-swiper.css">
+    <link rel="stylesheet" href="src/css/queries.css">
 
     <script src="src/js/swiper-bundle.min.js" defer></script>
     <script src="src/js/custom-swiper.js" defer></script>
+    <script src="src/js/utils.js" defer></script>
     <title>Бренды</title>
 </head>
 
@@ -121,9 +123,9 @@
             </li>
         </ul>
 
-        <div class="brands-section__pagination swiper-pagination"></div>
+        <div class="brands-section__pagination swiper-pagination" id="swiper-pagination-block"></div>
 
-        <div class="brands-section__toggle-list-block visually-hidden ">
+        <div class="brands-section__toggle-list-block" id="toggle-slides-btn-block">
             <img src="src/assets/icons/arrow-down.svg" alt="Разделитель кнопки скрытия или раскрытия списка брендов"
                 class="brands-section__toggle-list-block-divider">
             <button class="brands-section__toggle-list-block-btn btn-reset">
