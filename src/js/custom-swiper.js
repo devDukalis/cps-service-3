@@ -5,7 +5,7 @@ const swiper = new Swiper(".swiper", {
 
   // sliding
   slidesPerView: "auto",
-  spaceBetween: 16,
+  // spaceBetween: 16,
 
   // pagination
   pagination: {
@@ -26,12 +26,8 @@ const swiper = new Swiper(".swiper", {
 
   // breakpoints
   breakpoints: {
-    768: {
-      slidesPerView: 3,
-      spaceBetween: 24,
-    },
-    1120: {
-      slidesPerView: 4,
+    320: {
+      spaceBetween: 16,
     },
   },
 });
