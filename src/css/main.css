@@ -5,6 +5,8 @@
 .brands-section__heading {
   margin: 0;
   padding: 16px;
+  min-height: 56px;
+  max-height: 80px;
   color: var(--font-second-color);
   text-transform: uppercase;
   font-family: var(--font-regular);
@@ -20,17 +22,15 @@
 }
 
 .brands-section__list {
-  padding: 16px;
-  margin-bottom: 58px;
+  /* padding: 16px; */
 }
 
 .brands-section__list-item {
   border: 1px solid #eaeaea;
   border-radius: 6px;
   background: #ffffff;
-  min-width: 240px;
+  min-width: 224px;
   max-width: 240px;
-  padding: 0 16px;
 }
 
 .brands-section__list-item:last-child {
@@ -43,11 +43,23 @@
   align-items: center;
   width: 40px;
   height: 40px;
+  margin-right: 16px;
 }
 
 .brands-section__list-item-link-img {
   width: 40px;
   height: 40px;
+}
+
+.brands-section__list-item-lenovo-logo,
+.brands-section__list-item-samsung-logo,
+.brands-section__list-item-apple-logo,
+.brands-section__list-item-viewsonic-logo,
+.brands-section__list-item-bosh-logo,
+.brands-section__list-item-hp-logo,
+.brands-section__list-item-acer-logo,
+.brands-section__list-item-sony-logo {
+  margin-left: 16px;
 }
 
 .brands-section__list-item-lenovo-logo {
@@ -91,9 +103,36 @@
 }
 
 .brands-section__pagination {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 204px;
-  padding-bottom: 26px;
+}
+
+.brands-section__toggle-list-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.brands-section__toggle-list-block-img-wrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9px;
+}
+
+.brands-section__toggle-list-block img {
+  width: 7.41px;
+  height: 10.29px;
+}
+
+.brands-section__toggle-list-block-btn {
+  color: var(--font-main-color);
+  font-family: var(--font-medium);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-second);
+  letter-spacing: var(--letter-spacing-second);
 }
