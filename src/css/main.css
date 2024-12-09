@@ -113,6 +113,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  max-width: 143px;
 }
 
 .brands-section__toggle-list-block-img-wrapper {
@@ -122,6 +123,10 @@
   justify-content: center;
   align-items: center;
   margin-right: 9px;
+}
+
+.brands-section__toggle-list-block-divider {
+  transition: transform 0.3s ease;
 }
 
 .brands-section__toggle-list-block img {
