@@ -49,6 +49,11 @@
 .brands-section__list-item-link-img {
   width: 40px;
   height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.brands-section__list-item-link-img:hover {
+  transform: scale(1.2);
 }
 
 .brands-section__list-item-lenovo-logo,
