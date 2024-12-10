@@ -21,16 +21,16 @@
   border-top: 1px solid #d9fff5;
 }
 
-.brands-section__list {
-  /* padding: 16px; */
-}
-
 .brands-section__list-item {
   border: 1px solid #eaeaea;
   border-radius: 6px;
   background: #ffffff;
   min-width: 224px;
   max-width: 240px;
+}
+
+.brands-section__list-item:hover {
+  border-color: rgba(128, 128, 128, 0.5);
 }
 
 .brands-section__list-item:last-child {
@@ -49,6 +49,11 @@
 .brands-section__list-item-link-img {
   width: 40px;
   height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.brands-section__list-item-link-img:hover {
+  transform: scale(1.2);
 }
 
 .brands-section__list-item-lenovo-logo,
@@ -113,7 +118,16 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  max-width: 143px;
+  min-width: 100px;
+  max-width: 160px;
+}
+
+.brands-section__toggle-list-block:hover {
+  color: rgba(27, 28, 33, 0.8);
+  box-shadow: 0 0 2px 1px rgba(128, 128, 128, 0.5);
+  border-radius: 3px;
+  width: fit-content;
+  padding-right: 8px;
 }
 
 .brands-section__toggle-list-block-img-wrapper {
