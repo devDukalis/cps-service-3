@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
   updateSlidesVisibility();
 });
 
-/* TOGGLE IMAGE ROTATION*/
+/* TOGGLE IMAGE ROTATION */
 function toggleImageRotation() {
   const image = document.getElementById("toggle-list-image");
   // Проверяем текущее состояние кнопки и меняем стиль изображения
