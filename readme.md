@@ -2,7 +2,7 @@
 
 ## Предпросмотр
 
-![preview](later)
+![preview](https://i.postimg.cc/8CnrCKbz/cps-3-preview.png)
 
 ## Описание
 
